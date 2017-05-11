@@ -12,6 +12,7 @@ public class charcreation{
     con.setColor(new Color(125,118,113));
     con.fillRect(400,90,600,600);
     con.setColor(new Color(213,213,213));
+    con.drawRect(400,90,600,600);
     con.drawRect(400,90,550,600);
     con.drawRect(400,90,500,600);
     con.drawRect(400,90,450,600);
