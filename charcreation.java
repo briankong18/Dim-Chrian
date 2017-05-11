@@ -12,7 +12,6 @@ public class charcreation{
     con.setColor(new Color(125,118,113));
     con.fillRect(400,90,600,600);
     con.setColor(new Color(213,213,213));
-    con.drawRect(400,90,600,600);
     con.drawRect(400,90,550,600);
     con.drawRect(400,90,500,600);
     con.drawRect(400,90,450,600);
@@ -49,5 +48,15 @@ public class charcreation{
     con.setColor(new Color(0,0,0));
     con.fillOval(715,405,6,6);
     con.fillOval(728,405,6,6);
+    
+    
+    con.setColor(new Color(93,55,28));
+    con.fillOval(610,292,8,8);
+    con.fillOval(632,292,8,8);
+    con.setColor(new Color(249,207,178));
+    con.fillOval(605,295,40,40);
+    con.setColor(new Color(0,0,0));
+    con.fillOval(615,305,6,6);
+    con.fillOval(628,305,6,6);
   }
 }
