@@ -9,6 +9,8 @@ public class charcreation{
     con.fillRect(0,0,10000,10000);
     
     //game boarder
+    con.setColor(new Color(125,118,113));
+    con.fillRect(400,90,600,600);
     con.setColor(new Color(213,213,213));
     con.drawRect(400,90,550,600);
     con.drawRect(400,90,500,600);
@@ -21,8 +23,17 @@ public class charcreation{
     con.drawRect(400,90,150,600);
     con.drawRect(400,90,100,600);
     con.drawRect(400,90,50,600);
-    con.setColor(new Color(255,255,255));
-    con.fillRect(400,90,600,600);
+    con.drawRect(400,90,600,550);
+    con.drawRect(400,90,600,500);
+    con.drawRect(400,90,600,450);
+    con.drawRect(400,90,600,400);
+    con.drawRect(400,90,600,350);
+    con.drawRect(400,90,600,300);
+    con.drawRect(400,90,600,250);
+    con.drawRect(400,90,600,200);
+    con.drawRect(400,90,600,150);
+    con.drawRect(400,90,600,100);
+    con.drawRect(400,90,600,50);
     
     //character border
     con.setColor(new Color(0,0,0));
@@ -30,8 +41,8 @@ public class charcreation{
     
     //forward
     con.setColor(new Color(93,55,28));
-    con.fillOval(710,390,8,20);
-    con.fillOval(732,390,8,20);
+    con.fillOval(710,392,8,8);
+    con.fillOval(732,392,8,8);
     con.setColor(new Color(249,207,178));
     con.fillOval(705,395,40,40);
     con.setColor(new Color(0,0,0));
