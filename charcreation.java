@@ -94,25 +94,48 @@ public class charcreation{
     con.drawLine(310,0,310,780);
     con.drawLine(1090,0,1090,780);
     
+    //inventory
     con.setColor(new Color(252,194,74));
-    con.fillRect(120,90,20,20);
-    con.fillRect(210,90,20,20);
+    con.fillRect(120,130,20,20);
+    con.fillRect(210,130,20,20);
     con.setColor(new Color(191,121,76));
-    con.fillRoundRect(75,140,200,300,20,20);
+    con.fillRoundRect(75,180,200,300,20,20);
     con.setColor(new Color(153,83,48));
-    con.fillRoundRect(75,240,200,300,50,50);;
-    con.fillRect(275,400,20,100);
-    con.fillRect(55,400,20,100);
-    con.fillRect(125,40,10,100);
-    con.fillRect(215,40,10,100);
-    
+    con.fillRoundRect(75,280,200,300,50,50);;
+    con.fillRect(275,440,20,100);
+    con.fillRect(55,440,20,100);
+    con.fillRect(125,80,10,100);
+    con.fillRect(215,80,10,100);
+    con.setColor(new Color(252,194,74));
+    con.fillRect(120,130,20,5);
+    con.fillRect(210,130,20,5);
+    con.fillRect(120,145,20,5);
+    con.fillRect(210,145,20,5);
+    con.setColor(new Color(184,184,184));
+    con.fillRect(100,330,150,200);
     con.setColor(new Color(0,0,0));
-    con.drawRect(100,290,150,200);
-    con.drawRect(100,290,150,50);
-    con.drawRect(100,290,150,100);
-    con.drawRect(100,290,150,150);
-    con.drawRect(100,290,50,200);
-    con.drawRect(100,290,100,200);
+    con.drawRect(100,330,150,200);
+    con.drawRect(100,330,150,50);
+    con.drawRect(100,330,150,100);
+    con.drawRect(100,330,150,150);
+    con.drawRect(100,330,50,200);
+    con.drawRect(100,330,100,200);
+    
+    //hp and mp bar
+    con.setColor(new Color(240,240,240));
+    con.fillRect(0,0,250,60);
+    con.setColor(new Color(0,0,0));
+    con.fillRect(25,15,200,5);
+    con.fillRect(25,35,200,5);
+    con.setColor(new Color(192,11,11));
+    con.fillRect(25,15,200,5);
+    con.setColor(new Color(18,143,239));
+    con.fillRect(25,35,200,5);
+    
+    //torches
+    con.setColor(new Color(58,24,20));
+    
+    con.setColor(new Color(244,124,28));
     
     //game boarder
     con.setColor(new Color(125,118,113));
